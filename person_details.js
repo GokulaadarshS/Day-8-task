@@ -6,19 +6,21 @@ class person{
         this.qualification = qualification;
     }
     person_name(){
-        return 'the person name is ${this.name}';
+        return `the person name is ${this.name}`;
     }
     person_age(){
-        return 'the person age is ${this.age}';
+        return `the person age is ${this.age}`;
     }
     person_gender(){
-        return 'gender : ${this.gender}';
+        return `gender : ${this.gender}`;
     }
     person_qualification(){
-        return 'the person qualification is ${this.qualification}'
+        return `the person qualification is ${this.qualification}`
     }
 }
 const gokul_obj = new person("gokul","23","male","M.tech")
-console.log(gokul_obj)
+console.log(gokul_obj.person_qualification())
 const mohana_obj = new person("mohana","23","female","B.tech")
-console.log(mohana_obj)
+console.log(mohana_obj.person_age())
+const hh_obj = new person("mohan","24","male","B.tech")
+console.log(hh_obj)
